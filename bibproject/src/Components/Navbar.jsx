@@ -10,36 +10,36 @@ function Navbar() {
                 <ul className='hidden md:flex items-start gap-5 font-medium'>
                     <NavLink to="/">
                         <li className='py-1'>HOME</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto" />
+                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
                     </NavLink>
                    
                     <NavLink to="/procedures">
                         <li className='py-1'>PROCEDURES</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto" />
+                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
                     </NavLink>
                    
                     <NavLink to="/whyus">
                         <li className='py-1'>WHY US</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto" />
+                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
                     </NavLink>
 
                     <NavLink to="/contact">
                         <li className='py-1'>CONTACT</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto" />
+                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
                     </NavLink>
                     
                     <NavLink to="/book">
                         <li className='py-1'>BOOK NOW</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto" />
+                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
                     </NavLink>
                     
                     <NavLink to="/voucher">
                         <li className='py-1'>GIFT VOUCHERS</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto" />
+                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
                     </NavLink>
                     
                     <NavLink to="/login">
-                        <li className='py-1 bg-blue-500 text-white rounded-full'>LOGIN</li>
+                        <li className='py-3 px-8 bg-blue-400 text-white rounded-full font-light hidden md:block hover:bg-blue-500'>LOGIN</li>
                     </NavLink>
                 </ul>
 
