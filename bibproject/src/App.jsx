@@ -1,10 +1,11 @@
 import Navbar from "./Components/Navbar";
-import Home from "./Components/Home";
-import Procedures from "./Components/Procedures";
-import Whyus from "./Components/Whyus";
-import Voucher from "./Components/Voucher";
-import Book from "./Components/Book";
-import Contact from "./Components/Contact";
+import Home from "./Pages/Home";
+import Procedures from "./Pages/Procedures";
+import Whyus from "./Pages/Whyus";
+import Voucher from "./Pages/Voucher";
+import Book from "./Pages/Book";
+import Contact from "./Pages/Contact";
+import Login from "./Pages/Login";
 import { BrowserRouter as Router, Route, Routes } from "react-router";
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/voucher" element={<Voucher />} />
           <Route path="/book" element={<Book />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
       </div>
     </>
