@@ -1,40 +1,54 @@
 import { NavLink } from "react-router";
+import { useState } from "react";
 
 function Navbar() {
+    
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    
     return (
-        <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-gray-400">
-            <div className="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="https://www.bibclinic.co.uk/wp-content/uploads/2017/06/bib_clinic_logo_grey.png" alt="BiB Clinic Logo" className="w-30 hover:scale-110 transition-all duration-300" />
-            </div>
-            <div>
-                <ul className='hidden md:flex items-start gap-5 font-medium'>
-                    <NavLink to="/">
-                        <li className='py-1'>HOME</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
+        <>
+            <nav className="bg-white border-gray-200 dark:bg-gray-900/100">
+            {/* navbar logo */}
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                    <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img src="https://www.bibclinic.co.uk/wp-content/uploads/2017/06/bib_clinic_logo_grey.png" alt="BiB Clinic Logo" className="h-20 w-auto" />
+                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">BiB Clinic</span>
                     </NavLink>
-                   
-                    <NavLink to="/procedures">
-                        <li className='py-1'>PROCEDURES</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
-                    </NavLink>
-                   
-                    <NavLink to="/whyus">
-                        <li className='py-1'>WHY US</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
-                    </NavLink>
+            {/*hamburger menu*/}
+                    <div className="block md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                        <i className="bx bx-menu text-5xl cursor-pointer"></i>
+                        <div className={`absolute md:hidden top-24 left-0 w-full bg-white flex flex-col items-center gap-6 font-semibold text-lg transform transition-transform ${isMenuOpen ? "opacity-100":"opacity-0"}`} style={{transition: "transform 0.3s ease, opacity 0.3s ease"}}>
+                            <NavLink to="/" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">HOME</NavLink>
+                            <NavLink to="/procedures" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">PROCEDURES</NavLink>
+                            <NavLink to="/whyus" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">WHY US</NavLink>
+                            <NavLink to="/contact" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT</NavLink>
+                            <NavLink to="/book" className="py-3 px-8 bg-blue-400 text-white rounded-full font-light hover:bg-blue-500">BOOK NOW</NavLink>
+                        </div>
+                    </div>
 
-                    <NavLink to="/contact">
-                        <li className='py-1'>CONTACT</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
-                    </NavLink>
-                    
-                    <NavLink to="/book">
-                        <li className='py-3 px-8 bg-blue-400 text-white rounded-full font-light hidden md:block hover:bg-blue-500'>BOOK NOW</li>
-                    </NavLink>
-                </ul>
-
-            </div>
-        </div>
+            {/*navbar links*/}
+                    <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                            <NavLink to="/">
+                                <li className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">HOME</li>
+                            </NavLink>
+                            <NavLink to="/procedures">
+                                <li className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">PROCEDURES</li>
+                            </NavLink>
+                            <NavLink to="/whyus">
+                                <li className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">WHY US</li>
+                            </NavLink>
+                            <NavLink to="/contact">
+                                <li className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">CONTACT</li>
+                            </NavLink>
+                            <NavLink to="/book">
+                                <li className="py-3 px-8 bg-blue-400 text-white rounded-full font-light hover:bg-blue-500">BOOK NOW</li>
+                            </NavLink>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </>
     )
 }
 

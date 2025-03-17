@@ -1,5 +1,4 @@
 import Navbar from "./Components/Navbar";
-import NewNavbar from "./Components/NewNavbar";
 import Home from "./Pages/Home";
 import Procedures from "./Pages/Procedures";
 import Whyus from "./Pages/Whyus";
@@ -13,7 +12,7 @@ function App() {
       <div className="w-full h-full absolute
       bg-gradient-to-b from-slate-500 to-white">
         <header className="w-full">
-          <NewNavbar />
+          <Navbar />
         </header>
         <Routes>
           <Route path="/" element={<Home />} />
