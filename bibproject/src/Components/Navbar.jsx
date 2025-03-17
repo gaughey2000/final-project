@@ -29,17 +29,7 @@ function Navbar() {
                     </NavLink>
                     
                     <NavLink to="/book">
-                        <li className='py-1'>BOOK NOW</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
-                    </NavLink>
-                    
-                    <NavLink to="/voucher">
-                        <li className='py-1'>GIFT VOUCHERS</li>
-                        <hr className="border-none outline-none h-0.5 bg-blue-400 w-3/5 m-auto hidden" />
-                    </NavLink>
-                    
-                    <NavLink to="/login">
-                        <li className='py-3 px-8 bg-blue-400 text-white rounded-full font-light hidden md:block hover:bg-blue-500'>LOGIN</li>
+                        <li className='py-3 px-8 bg-blue-400 text-white rounded-full font-light hidden md:block hover:bg-blue-500'>BOOK NOW</li>
                     </NavLink>
                 </ul>
 
