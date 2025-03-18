@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
+import NewHome from "./Pages/NewHome";
 import Procedures from "./Pages/Procedures";
 import Whyus from "./Pages/Whyus";
 import Book from "./Pages/Book";
@@ -15,7 +16,7 @@ function App() {
           <Navbar />
         </header>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<NewHome />} />
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/whyus" element={<Whyus />} />
           <Route path="/book" element={<Book />} />
