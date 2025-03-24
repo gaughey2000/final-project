@@ -9,7 +9,7 @@ function NewHome() {
                 <h1 className="text-4xl font-bold text-center text-black absolute bottom-30 left-150">Hello and welcome to BiB Clinic</h1>
             </div>
             {/*main section*/}
-            <div className="w-250 h-1/2 flex flex-col items-center justify-center bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10" >
+            <div className="w-250 h-1/2 flex flex-col items-center justify-center bg-tertiary rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 m-10" >
                 <ul className="list-disc list-inside text-xl text-center text-black">
                     <li>Some</li>
                     <li>General</li>

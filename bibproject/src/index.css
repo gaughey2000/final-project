@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
 .active hr{
-    @apply block;
+    display: block;
 }
 
+@theme {
+    --color-primary: #F6F5F2;
+    --color-secondary: #F0EBE3;
+    --color-tertiary: #F3D0D7;
+    --color-quaternary: #FFEFEF;
 
+    --color-text: black;
+    --color-text-secondary: #A0C3D2;
+}

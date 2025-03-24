@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div className="w-full h-full absolute
-      bg-gradient-to-b from-slate-500 to-white">
+      bg-primary">
         <header className="w-full">
           <Navbar />
         </header>
