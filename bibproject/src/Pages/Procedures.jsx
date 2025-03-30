@@ -1,4 +1,5 @@
 import antiwrinkle from '../media/anti-wrinkle.png';
+import filler from '../media/filler.png';
 
 function Procedures() {
     return (
@@ -10,6 +11,7 @@ function Procedures() {
          
             </div>
             <div className="flow-root">
+                {/* Anti-Wrinkle */}
                 <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700">
                     <h5 className="text-xl font-bold text-gray-900 truncate dark:text-white">Anti-Wrinkle</h5>
                     <img src={antiwrinkle} alt="Anti-Wrinkle" className="w-48 h-48 " />
@@ -78,7 +80,11 @@ function Procedures() {
                             </div>
                         </div>
                     </li>
-
+                </ul>
+                {/* Dermal Fillers */}
+                <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700">
+                    <h5 className="text-xl font-bold text-gray-900 truncate dark:text-white">Dermal Fillers</h5>
+                    <image src={filler} alt="Dermal Fillers" className="w-48 h-48 " />
                 </ul>
             </div>
         </div>
