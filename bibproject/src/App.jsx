@@ -1,5 +1,4 @@
 import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
 import NewHome from "./Pages/NewHome";
 import Procedures from "./Pages/Procedures";
 import Whyus from "./Pages/Whyus";
