@@ -25,7 +25,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Reduce fine lines with anti-wrinkle injections.
+                                Reduce fine lines with anti-wrinkle injections.
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
@@ -261,7 +261,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
-                            Improve you skins tone, texture, hydration, and overall radience with Profhilo skin booster injections.
+                                Improve you skins tone, texture, hydration, and overall radience with Profhilo skin booster injections.
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
@@ -305,7 +305,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Rejuvinate and refresh your skin with clinical skin care.
+                                Rejuvinate and refresh your skin with clinical skin care.
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
@@ -315,7 +315,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Microdermabrasion
+                                Microdermabrasion
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -328,7 +328,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Dermaplaning
+                                Dermaplaning
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -341,7 +341,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Sclerotherapy
+                                Sclerotherapy
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -362,7 +362,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Skin peels will leave your skin looking smoother, healthier, plumper and tighter
+                                Skin peels will leave your skin looking smoother, healthier, plumper and tighter
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
@@ -372,7 +372,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Dermaceutic Milk Peel
+                                Dermaceutic Milk Peel
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -385,7 +385,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Obaji Blue Peel
+                                Obaji Blue Peel
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -398,7 +398,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Alumier Glow Peel
+                                Alumier Glow Peel
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -411,7 +411,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Dermaceutic TCA
+                                Dermaceutic TCA
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -432,7 +432,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Restore and hydrate your skin by stimulating cell regrowth with Polyucletotide injections
+                                Restore and hydrate your skin by stimulating cell regrowth with Polyucletotide injections
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
@@ -442,7 +442,7 @@ function Procedures() {
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Single treatment
+                                Single treatment
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
                                 
@@ -475,7 +475,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Increase energy levels, improve sleep and overall well being with a Vitamin B12 injection
+                                Increase energy levels, improve sleep and overall well being with a Vitamin B12 injection
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
@@ -502,7 +502,7 @@ function Procedures() {
                                 <strong>About</strong>
                             </p>
                             <p className="text-sm font-medium text-gray-900 dark:text-white">
-                            Treat hyperhydrosis (excessive sweating) with muscle relaxing injections.
+                                Treat hyperhydrosis (excessive sweating) with muscle relaxing injections.
                             </p>
                             <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                 <a href="/contact" className="text-blue-500 hover:underline">more info</a>
