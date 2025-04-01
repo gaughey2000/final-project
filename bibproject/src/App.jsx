@@ -8,8 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router";
 function App() {
 
   return (
-    <>
-      <div className="w-full h-full absolute
+
+      <div className="w-full min-h-screen
       bg-primary">
         <header className="w-full">
           <Navbar />
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </>
+
   )
 }
 
