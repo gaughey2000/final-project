@@ -2,8 +2,9 @@ import headshot from "../media/head-shot.png"
 
 function Whyus() {
     return (
-        <div>
-            <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <div className="flex flex-row items-center justify-center w-full h-[25] p-4 mt-16 ml-4 mr-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+            {/*Why Us*/}
+            <div className="block max-w-sm  h-[25%] p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Why choose us?</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <strong>Begginings</strong>
@@ -24,33 +25,39 @@ function Whyus() {
                     end products to ensure you look and feel beautiful
                     </p>
             </div>
-
-            <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 className="mb-2 text-2xl font-bold tracking-light text-gray-900 dark:text-white">Meet Rachel</h5>
-                <img src={headshot} alt="Rachel" className="w-48 h-48 rounded-full" />
-                <p>
-                    <strong>Best of the best</strong>
-                    <br/>
-                    Rachel is a registered nurse and Independent Prescriber with over 25 years of 
-                    nursing experience. Working within critical care before moving to community work.
-                    Rachel has been working in aesthetics for 14 years and has trained with globally renowned
-                    doctors in the UK and abroad.
-                    <br />
-                    <br />
-                    <strong>Improving continuosly</strong>
-                    <br/>
-                    Over the last 14 years Rachel has train continuosly, not only in the UK but across europe
-                    to bring her patients the highest standard of innovative treatments. She is a member of BACN 
-                    (British Association of Cosmetic Nurses) and ACE (Aesthetics Complications Experts).
-                    <br />
-                    <br />
-                    <strong>Premium products</strong>
-                    <br/>
-                    Our products are chosen by their quality, efficacy and safety profile.
-                    We dont settle for anything less than the best.
-                </p>
+            {/*Rachel*/}
+            <div className="flex w-[35%] ">
+                <div classname="w-[50%] m-1.5">
+                    <h5 className="mb-2 text-2xl font-bold tracking-light text-gray-900 dark:text-white">Meet Rachel</h5>
+                    <img src={headshot} alt="Rachel" className="w-48 h-48 rounded-full" />
+                </div>
+                <div className="w-[50%] m-1.5">
+                    <p>
+                        <strong>Best of the best</strong>
+                        <br/>
+                        Rachel is a registered nurse and Independent Prescriber with over 25 years of 
+                        nursing experience. Working within critical care before moving to community work.
+                        Rachel has been working in aesthetics for 14 years and has trained with globally renowned
+                        doctors in the UK and abroad.
+                        <br />
+                        <br />
+                        <strong>Improving continuosly</strong>
+                        <br/>
+                        Over the last 14 years Rachel has train continuosly, not only in the UK but across europe
+                        to bring her patients the highest standard of innovative treatments. She is a member of BACN 
+                        (British Association of Cosmetic Nurses) and ACE (Aesthetics Complications Experts).
+                        <br />
+                        <br />
+                        <strong>Premium products</strong>
+                        <br/>
+                        Our products are chosen by their quality, efficacy and safety profile.
+                        We dont settle for anything less than the best.
+                    </p>
+                </div>
             </div>
-            <div className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+            {/*Our Promise*/}
+            <div className="block max-w-sm h-[25%] p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
                 <h5 className="mb-2 text-2xl font-bold tracking-light text-gray-900 dark:text-white">Our Promise</h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
                     <strong>Confidence</strong>
