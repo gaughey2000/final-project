@@ -1,4 +1,5 @@
 import Navbar from "./Components/Navbar";
+import NewNavbar from "./Components/NewNavbar";
 import NewHome from "./Pages/NewHome";
 import Procedures from "./Pages/Procedures";
 import Whyus from "./Pages/Whyus";
@@ -12,15 +13,16 @@ function App() {
       <div className="w-full min-h-screen
       bg-primary">
         <header className="w-full">
-          <Navbar />
+          <NewNavbar />
         </header>
-        <Routes>
+       {/**  <Routes>
           <Route path="/" element={<NewHome />} />
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/whyus" element={<Whyus />} />
           <Route path="/book" element={<Book />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        */}
       </div>
 
   )
