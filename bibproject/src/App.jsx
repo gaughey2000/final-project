@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import NewNavbar from "./Components/NewNavbar";
+import Home from "./Pages/Home";
 import NewHome from "./Pages/NewHome";
 import Procedures from "./Pages/Procedures";
 import Whyus from "./Pages/Whyus";
@@ -15,6 +16,7 @@ function App() {
         <header className="w-full">
           <NewNavbar />
         </header>
+        <NewHome />
        {/**  <Routes>
           <Route path="/" element={<NewHome />} />
           <Route path="/procedures" element={<Procedures />} />
