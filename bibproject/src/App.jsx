@@ -6,6 +6,7 @@ import Procedures from "./Pages/Procedures";
 import Whyus from "./Pages/Whyus";
 import Book from "./Pages/Book";
 import Contact from "./Pages/Contact";
+import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router";
 function App() {
 
@@ -16,15 +17,16 @@ function App() {
         <header className="w-full">
           <NewNavbar />
         </header>
-        <NewHome />
-       {/**  <Routes>
+        
+        <Routes>
           <Route path="/" element={<NewHome />} />
           <Route path="/procedures" element={<Procedures />} />
           <Route path="/whyus" element={<Whyus />} />
           <Route path="/book" element={<Book />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        */}
+        <Footer />
+
       </div>
 
   )
