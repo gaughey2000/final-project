@@ -19,9 +19,9 @@ function NewNavbar(){
             </ul>
 {/** mobile nav */}
             <div onClick={handleMenuToggle} className='block md:hidden'>
-                {!isMenuOpen ? <i className="bx bx-x text-5xl cursor-pointer"></i> : <i className="bx bx-menu text-5xl cursor-pointer"></i>}
+                {isMenuOpen ? <i className="bx bx-x text-5xl cursor-pointer"></i> : <i className="bx bx-menu text-5xl cursor-pointer"></i>}
             </div>
-            <div className={!isMenuOpen ? 'fixed left-0 top-0 w-[60%] h-full border-r border-gray-900 bg-tertiary ease-in-out duration-500' : 'fixed left-[-100%] top-0 w-[60%] h-full border-r border-gray-900 bg-tertiary ease-in-out duration-500'}>
+            <div className={isMenuOpen ? 'fixed left-0 top-0 w-[60%] h-full border-r border-gray-900 bg-tertiary ease-in-out duration-500 z-50' : 'fixed left-[-100%] top-0 w-[60%] h-full border-r border-gray-900 bg-tertiary ease-in-out duration-500'}>
             <h1 className="w-full text-3xl font-bold ">Bib Clinic.</h1>
                 <ul className="uppercase p-4">
                     <li className="p-4 border-b">Home</li>
