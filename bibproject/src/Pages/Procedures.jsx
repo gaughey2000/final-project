@@ -49,7 +49,7 @@ function Procedures() {
     };
 
     return (
-        <div className="w-full p-4 mt-16 ml-4 mr-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8">
+        <div className="w-full p-4 ">
             <div className="flex items-center justify-between mb-4">
                 <h5 className="text-xl font-bold leading-none text-gray-900">
                     Procedures
@@ -58,7 +58,7 @@ function Procedures() {
             </div>
             <div className="flow-root">
 {/*Anti-Wrinkle*/}
-                <ul role="list" className="divide-y divide-gray-200">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Anti-Wrinkle</h5>
                     <img src={antiwrinkle} alt="Anti-Wrinkle" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -130,7 +130,7 @@ function Procedures() {
                     </div>
                 </ul>
 {/*Dermal Fillers*/}
-                <ul role="list" className="divide-y divide-gray-200">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate ">Dermal Fillers</h5>
                     <img src={fillerpic} alt="Dermal Fillers" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -255,7 +255,7 @@ function Procedures() {
                 </ul>
                 
 {/*Harmony Threads*/}
-                <ul role="list" className="divide-y divide-gray-20">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate" >Harmony Threads </h5>
                     <img src={harmony} alt="Harmony Threads" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -302,7 +302,7 @@ function Procedures() {
                 </ul>
                  
 {/*Skin-boosters*/}
-                <ul role="list" className="divide-y divide-gray-200">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Skinboosters</h5>
                     <img src={skinboosters} alt="Skinboosters" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -349,7 +349,7 @@ function Procedures() {
                 </ul>
                 
 {/*Skin-care*/}
-                <ul role="list" className="divide-y divide-gray-200>">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Skin Care</h5>
                     <img src={skincare} alt="Skin Care" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -409,7 +409,7 @@ function Procedures() {
                 </ul>
                
 {/*Skin-peel*/}
-                <ul role="list" className="divide-y divide-gray-200">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Skin Peel</h5>
                     <img src={skinpeel} alt="Skin Peel" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -482,7 +482,7 @@ function Procedures() {
                 </ul>
                 
 {/*Polynucleotides*/}
-                <ul role="list" className="divide-y divide-gray-200">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Polynucleotides</h5>
                     <img src={poly} alt="Polynucleotides" className="w-48 h-48 " />
                     <li className="py-3 sm:py-4">
@@ -529,7 +529,7 @@ function Procedures() {
                 </ul>
                  
 {/*Vitamin*/}
-                <ul role="list" className="divide-y divide-gray-2000">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Vitamin</h5>
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
@@ -559,7 +559,7 @@ function Procedures() {
                 </ul>
                 
 {/*Hyperhydrosis*/} 
-                <ul role="list" className="divide-y divide-gray-200">
+                <ul role="list" className="mt-16 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
                     <h5 className="text-xl font-bold text-gray-900 truncate">Hyperhydrosis</h5>
                     <li className="py-3 sm:py-4">
                         <div className="flex-1 min-w-0 ms-4">
