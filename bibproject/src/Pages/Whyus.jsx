@@ -1,38 +1,17 @@
 import headshot from "../media/head-shot.png"
-
+import { useState } from "react";
 function Whyus() {
     return (
-        <div className="flex flex-row items-center justify-center w-full h-[25] p-4 mt-16 ml-4 mr-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
-            {/*Why Us*/}
-            <div className="block max-w-sm  h-[25%] p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Why choose us?</h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                    <strong>Begginings</strong>
-                    <br/>
-                    All the aesthetic treatments are carried out by an experienced professional, registered nurse 
-                    and independent prescriber Rachel McGaughey, who founded BiB.
-                    <br />
-                    <br />
-                    <strong>Individual</strong>
-                    <br/>
-                    At BiB Aesthetics Clinic, our aim is to provide individually tailored treatments that deliver  
-                    natural looking results.
-                    <br />
-                    <br />
-                    <strong>Beauty</strong>
-                    <br/>
-                    Dedicated and commited to the highest ethical standards. We use the latest innovative treatments with high 
-                    end products to ensure you look and feel beautiful
-                    </p>
-            </div>
+        <div className="">
             {/*Rachel*/}
-            <div className="flex w-[35%] ">
-                <div classname="w-[50%] m-1.5">
-                    <h5 className="mb-2 text-2xl font-bold tracking-light text-gray-900 dark:text-white">Meet Rachel</h5>
+            <div className="mt-16 my-1 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
+                <div classname="">
+                    <h1 className="text-xl font-bold text-gray-900 truncate">Meet Rachel</h1>
                     <img src={headshot} alt="Rachel" className="w-48 h-48 rounded-full" />
                 </div>
-                <div className="w-[50%] m-1.5">
+                <div className="">
                     <p>
+                        <br />
                         <strong>Best of the best</strong>
                         <br/>
                         Rachel is a registered nurse and Independent Prescriber with over 25 years of 
@@ -55,11 +34,34 @@ function Whyus() {
                     </p>
                 </div>
             </div>
+            {/*Why Us*/}
+            <div className="mt-16 my-1 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
+                <h1 className="font-bold">Why choose us?</h1>
+                <p className="">
+                    <strong>Begginings</strong>
+                    <br/>
+                    All the aesthetic treatments are carried out by an experienced professional, registered nurse 
+                    and independent prescriber Rachel McGaughey, who founded BiB.
+                    <br />
+                    <br />
+                    <strong>Individual</strong>
+                    <br/>
+                    At BiB Aesthetics Clinic, our aim is to provide individually tailored treatments that deliver  
+                    natural looking results.
+                    <br />
+                    <br />
+                    <strong>Beauty</strong>
+                    <br/>
+                    Dedicated and commited to the highest ethical standards. We use the latest innovative treatments with high 
+                    end products to ensure you look and feel beautiful
+                    </p>
+            </div>
 
+            
             {/*Our Promise*/}
-            <div className="block max-w-sm h-[25%] p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                <h5 className="mb-2 text-2xl font-bold tracking-light text-gray-900 dark:text-white">Our Promise</h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
+            <div className="mt-16 my-1 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 items-center">
+                <h5 className="">Our Promise</h5>
+                <p className="">
                     <strong>Confidence</strong>
                     <br/>
                     Boost your confidence, appearance and wellbeing.
